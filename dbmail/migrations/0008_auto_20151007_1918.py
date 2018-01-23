@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='mailbcc',
             name='email',
-            field=models.EmailField(unique=True, max_length=254, verbose_name='Email'),
+            field=models.EmailField(unique=True, max_length=190, verbose_name='Email'),
         ),
         migrations.AlterField(
             model_name='mailfromemail',
